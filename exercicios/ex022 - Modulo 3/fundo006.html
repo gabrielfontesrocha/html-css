@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
@@ -14,11 +14,17 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            /* Shorthand -- background ordem --> color > image > position > repeat > [size] > attachment */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -29,6 +35,10 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus nihil impedit unde error repellendus, vitae, doloribus magnam quaerat dolorem natus fugit. Quaerat expedita quo nemo praesentium laborum voluptatibus laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quia quae molestiae accusamus provident minus eius voluptas optio ducimus ipsa maiores quam quidem expedita cum, minima dolorem illo ratione repudiandae!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quasi quas, mollitia, reiciendis nam sint optio eum dignissimos laudantium explicabo illo voluptatem doloremque odit commodi inventore molestias autem nisi ducimus?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus nihil impedit unde error repellendus, vitae, doloribus magnam quaerat dolorem natus fugit. Quaerat expedita quo nemo praesentium laborum voluptatibus laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quia quae molestiae accusamus provident minus eius voluptas optio ducimus ipsa maiores quam quidem expedita cum, minima dolorem illo ratione repudiandae!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quasi quas, mollitia, reiciendis nam sint optio eum dignissimos laudantium explicabo illo voluptatem doloremque odit commodi inventore molestias autem nisi ducimus?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus nihil impedit unde error repellendus, vitae, doloribus magnam quaerat dolorem natus fugit. Quaerat expedita quo nemo praesentium laborum voluptatibus laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quia quae molestiae accusamus provident minus eius voluptas optio ducimus ipsa maiores quam quidem expedita cum, minima dolorem illo ratione repudiandae!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quasi quas, mollitia, reiciendis nam sint optio eum dignissimos laudantium explicabo illo voluptatem doloremque odit commodi inventore molestias autem nisi ducimus?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus nihil impedit unde error repellendus, vitae, doloribus magnam quaerat dolorem natus fugit. Quaerat expedita quo nemo praesentium laborum voluptatibus laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quia quae molestiae accusamus provident minus eius voluptas optio ducimus ipsa maiores quam quidem expedita cum, minima dolorem illo ratione repudiandae!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quasi quas, mollitia, reiciendis nam sint optio eum dignissimos laudantium explicabo illo voluptatem doloremque odit commodi inventore molestias autem nisi ducimus?</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus nihil impedit unde error repellendus, vitae, doloribus magnam quaerat dolorem natus fugit. Quaerat expedita quo nemo praesentium laborum voluptatibus laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quia quae molestiae accusamus provident minus eius voluptas optio ducimus ipsa maiores quam quidem expedita cum, minima dolorem illo ratione repudiandae!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quasi quas, mollitia, reiciendis nam sint optio eum dignissimos laudantium explicabo illo voluptatem doloremque odit commodi inventore molestias autem nisi ducimus?</p>
     </main>
 </body>
